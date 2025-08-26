@@ -21,8 +21,12 @@ ul {
 
 /* FOOTER */
 footer {
+  background-color: black;
+  color: white;
   display: flex;
   justify-content: center;
+  position: absolute; 
+  bottom: 0;
 }
 
 /* IMG */
@@ -31,6 +35,7 @@ footer {
 }
 
 .imgfoot {
+  display: flex;
   width: 128px;
   height: 128px;
 }
