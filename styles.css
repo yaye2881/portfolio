@@ -1,0 +1,36 @@
+/* BODY */
+body {
+  margin: 0;
+}
+/* HEADER */
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  list-style-type: none;
+  padding: 0 16px;
+}
+/* MAIN */
+.section {
+  justify-items: center;
+}
+
+.padding {
+  justify-items: center;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+/* IMG */
+.img {
+  max-width: 32px;
+}
+
+.imgfoot {
+  width: 128px;
+  height: 128px;
+}
