@@ -4,8 +4,9 @@ body {
 }
 /* HEADER */
 ul {
+  
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 16px;
   list-style-type: none;
   padding: 0 16px;
@@ -16,6 +17,7 @@ ul {
 }
 
 .padding {
+  text-align: center;
   justify-items: center;
 }
 
@@ -24,9 +26,9 @@ footer {
   background-color: black;
   color: white;
   display: flex;
-  justify-self: flex-start;
   justify-content: center;
-  position: absolute; 
+  position: fixed;
+  width: 100%; 
   bottom: 0;
 }
 
@@ -36,6 +38,8 @@ footer {
 }
 
 .imgfoot {
+  justify-content: flex-end;
   width: 128px;
   height: 128px;
 }
+
